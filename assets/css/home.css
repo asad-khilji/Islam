@@ -1,8 +1,13 @@
 @import 'nav.css';
 @import 'search.css';
 
+body {
+    background-color: black;
+}
+
 h1 {
     text-align: center;
+    color: white;
 }
 
 a {
@@ -47,5 +52,12 @@ main {
    max-width: 1024px;
    margin: auto;
    text-align: center;
+   background-color: white;
+   padding: 10px;
 }
+
+p {
+    text-align: left;
+}
+
 
